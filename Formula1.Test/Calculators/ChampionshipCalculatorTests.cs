@@ -35,12 +35,14 @@ namespace Formula1.Test.Calculators
         [Test]
         public void GivenACalculator_WhenCallingCalculate_ThenNoExceptionIsThrown()
         {
+            _engine.PopulatePossibleRaceResults(Arg.Any<int>()).Returns(new List<RaceResult>());
             _calculator.Calculate(1, _firstDriver, _secondDriver);
         }
 
         [Test]
         public void GivenACalculator_WhenCallingCalculate_ThenEngineCalculatesPossiblePositionCombinations()
         {
+            _engine.PopulatePossibleRaceResults(Arg.Any<int>()).Returns(new List<RaceResult>());
             _calculator.Calculate(1, _firstDriver, _secondDriver);
             _engine.Received().PopulatePossibleRaceResults(Arg.Any<int>());
         }

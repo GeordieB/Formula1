@@ -34,6 +34,9 @@ namespace Formula1.Calculators
             Init();
 
             _raceResultDictionary = ToDictionary();
+            if (_raceResultDictionary == null || !_raceResultDictionary.Any())
+                return null;
+
             _iterations = _raceResultDictionary.FirstOrDefault().Value.Count;
             var combinations = new List<List<RaceResult>>();
             var innerCombinations = new List<RaceResult>();
