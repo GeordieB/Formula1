@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formula1", "Formula1\Formula1.csproj", "{84109238-EF9E-4F6F-86D9-F75DE79713FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formula1.Test", "Formula1.Test\Formula1.Test.csproj", "{526C88FC-F8FE-4824-AEC6-30B6F7966C6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84109238-EF9E-4F6F-86D9-F75DE79713FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84109238-EF9E-4F6F-86D9-F75DE79713FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84109238-EF9E-4F6F-86D9-F75DE79713FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84109238-EF9E-4F6F-86D9-F75DE79713FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526C88FC-F8FE-4824-AEC6-30B6F7966C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526C88FC-F8FE-4824-AEC6-30B6F7966C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526C88FC-F8FE-4824-AEC6-30B6F7966C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526C88FC-F8FE-4824-AEC6-30B6F7966C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C70BC421-A791-4BD6-881C-25147CB5DB48}
+	EndGlobalSection
+EndGlobal
